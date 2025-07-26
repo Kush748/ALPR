@@ -1,0 +1,9 @@
+# config.yaml
+
+path: C:\Users\kusha\Desktop\y # root dataset directory (optional, only if you use relative paths)
+
+train: C:\Users\kusha\Desktop\y\train  # path to training images
+val: C:\Users\kusha\Desktop\y\train      # path to validation images
+
+nc: 1                # number of classes (for ALPR, probably 1: 'license plate')
+names: ['license_plate']  # list of class names
